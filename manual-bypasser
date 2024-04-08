@@ -1,5 +1,5 @@
 --[[
-         Update April 7th 2024
+         Version April 7th 2024
 
     • Better bypassing (more words)
     • Added Enable / Disable Button (finally)
@@ -39,17 +39,17 @@ else
 		local chatService, players = game:GetService("Chat"), game:GetService("Players")
 
 		local custom_chars = {
-			[" "] = "￰",
-			["i"] = "і⁥",
-			["a"] = "а⁥",
-			["e"] = "е⁥",
-			["c"] = "с⁥",
-            ["h"] = "һ⁥",
-			["o"] = "о⁥",
-			["p"] = "р⁥",
-			["s"] = "ѕ⁥",
-			["I"] = "Ӏ⁥",
-			["E"] = "Е⁥",
+			[" "] = "",
+			["i"] = "і",
+			["a"] = "а",
+			["e"] = "е",
+			["c"] = "с",
+                        ["h"] = "һ",
+			["o"] = "о",
+			["p"] = "р",
+			["s"] = "ѕ",
+			["I"] = "Ӏ",
+			["E"] = "Е",
 			["G"] = "ꓖ",
 			["C"] = "С",
 			["O"] = "О",
